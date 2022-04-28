@@ -60,6 +60,11 @@ app.get('/', (req, res) => {
     res.send("some changes needed running genius server");
 })
 
+app.get('/about', (req, res) => {
+    res.send("about running into genius server");
+})
+
 app.listen(port, () => {
     console.log('Listening port:',port);
 })
+
